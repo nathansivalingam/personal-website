@@ -10,8 +10,8 @@ function Router() {
   return (
     <>
       <Navbar>
-        <StyledLink to='/'>HomePage</StyledLink>&nbsp;|&nbsp;
-        <StyledLink to='/interests'>Interests</StyledLink>&nbsp;|&nbsp;
+        <StyledLink to='/'>Home</StyledLink>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <StyledLink to='/interests'>Interests</StyledLink>&nbsp;&nbsp;|&nbsp;&nbsp;
         <StyledLink to='/projects'>Projects</StyledLink>
       </Navbar>
       <Routes>
