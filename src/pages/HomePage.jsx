@@ -1,4 +1,3 @@
-import { TestStyle } from "../styles/styledComponents"
 
 const HomePage = function() {
   return <>
