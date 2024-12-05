@@ -1,40 +1,52 @@
-import { ProjectPageStyle, IndivProjectStyle, IndivProjectImgStyle, MoreComingSoonStyle } from "../styles/styledComponents"
+import { ProjectPageStyle, 
+  IndivProjectStyle, 
+  IndivProjectImgStyle, 
+  MoreComingSoonStyle, 
+  IndivProjectContentStyle,
+  StyledProjectImg,
+  ProjectText } from "../styles/styledComponents"
+import robotImg from '../assets/robot.png'
+import personalWebsiteImg from '../assets/personal_website.png'
+import jsxGamesImg from '../assets/jsx_games.jpg'
+import { Link } from 'react-router-dom'
 
 const Projects = function() {
+  const handleClick = () => {
+    console.log('Hello World');
+  };
+  
   return <>
     <ProjectPageStyle>
-      <IndivProjectStyle>
+      <IndivProjectStyle onClick={handleClick}>
         <IndivProjectImgStyle>
-          Robot Project
+          <StyledProjectImg src={robotImg} alt="robot"></StyledProjectImg>
         </IndivProjectImgStyle>
-        <div>
-          Project 1 Content
-          <div>Title: </div>
-          <div>Description: </div>
-          <div>Creation Date: </div>
-        </div>
+        <IndivProjectContentStyle>
+          <ProjectText><b>Title →</b> Robot</ProjectText>
+          <ProjectText><b>Description →</b> The aim is to further explore the use of hand gestures in controlling the speed and direction of autonomous
+          vehicles.</ProjectText>
+          <ProjectText><b>Creation Date →</b> Jan 2024</ProjectText>
+        </IndivProjectContentStyle>
       </IndivProjectStyle>
-      <IndivProjectStyle>
+      <IndivProjectStyle onClick={handleClick}>
         <IndivProjectImgStyle>
-          Personal Website Project
+          <StyledProjectImg src={personalWebsiteImg} alt="personal website"></StyledProjectImg>
         </IndivProjectImgStyle>
-        <div>
-          Project 1 Content
-          <div>Title: </div>
-          <div>Description: </div>
-          <div>Creation Date: </div>
-        </div>
+        <IndivProjectContentStyle>
+          <ProjectText><b>Title →</b> Personal Website</ProjectText>
+          <ProjectText><b>Description →</b> This is a practical application of the web building concepts taught by UNSW Lecturer Hayden Smith in COMP6080.</ProjectText>
+          <ProjectText><b>Creation Date →</b> Dec 2024</ProjectText>
+        </IndivProjectContentStyle>
       </IndivProjectStyle>
-      <IndivProjectStyle>
+      <IndivProjectStyle onClick={handleClick}>
         <IndivProjectImgStyle>
-          Javascript Games
+          <StyledProjectImg src={jsxGamesImg} alt="jsx games"></StyledProjectImg>
         </IndivProjectImgStyle>
-        <div>
-          Project 1 Content
-          <div>Title: </div>
-          <div>Description: </div>
-          <div>Creation Date: </div>
-        </div>
+        <IndivProjectContentStyle>
+          <ProjectText><b>Title →</b> JSX Games</ProjectText>
+          <ProjectText><b>Description →</b> These are a few mini games that I am making in preparation for my comp6080 exam. They are taken from tutorial questions and practice final exam papers.</ProjectText>
+          <ProjectText><b>Creation Date →</b> Oct 2024</ProjectText>
+        </IndivProjectContentStyle>
       </IndivProjectStyle>
       <MoreComingSoonStyle>
         More Coming Soon...

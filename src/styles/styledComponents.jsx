@@ -48,6 +48,7 @@ export const StyledImg = styled.img`
 export const AboutMeStyle = styled.div(() => ({
   padding: '1%',
   fontSize: '1.4rem',
+  textDecoration: 'underline',
 }))
 
 export const AboutMeParagraphStyle = styled.div(() => ({
@@ -73,23 +74,39 @@ export const ProjectPageStyle = styled.div(() => ({
   justifyContent: 'space-around',
 }))
 
-export const IndivProjectStyle = styled.div(() => ({
-  width: '95%',
-  height: '200px',
-  backgroundColor: '#5885AF',
-  borderRadius: '5px',
-  marginTop: '1%',
-  display: 'flex',
-  flexDirection: 'row',
-  alignItems: 'center',
-}))
+export const IndivProjectStyle = styled.div`
+  width: 95%;
+  height: 200px;
+  background-color: #5885AF;
+  border-radius: 5px;
+  margin-top: 1%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.01);
+  }
+`;
 
 export const IndivProjectImgStyle = styled.div(() => ({
-  height: '180px',
-  width: '200px',
+  height: '100%',
+  width: '225px',
   backgroundColor: 'white',
   borderRadius: '5px',
-  marginLeft: '10px',
+  border: '2px solid white',
+}))
+
+export const IndivProjectContentStyle = styled.div(() => ({
+  width: 'calc(100% - 225px)',
+  height: '100%',
+  backgroundColor: '#C3E0E5',
+  borderRadius: '5px',
+  border: '2px solid white',
 }))
 
 export const MoreComingSoonStyle = styled.div(() => ({
@@ -98,7 +115,18 @@ export const MoreComingSoonStyle = styled.div(() => ({
   backgroundColor: '#5885AF',
   borderRadius: '5px',
   marginTop: '1%',
+  alignItems: 'center',
   display: 'flex',
   justifyContent: 'center',
-  alignItems: 'center',
+  padding: '10px',
+}))
+
+export const StyledProjectImg = styled.img`
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+`
+
+export const ProjectText = styled.div(() => ({
+  padding: '10px 20px 0 20px',
 }))
