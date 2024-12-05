@@ -1,8 +1,8 @@
-import { Link, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage'
 import Interests from './pages/Interests';
 import Projects from './pages/Projects';
-import { Navbar } from './styles/styledComponents';
+import { Navbar, StyledLink } from './styles/styledComponents';
 import './App.css'
 
 function Router() {
@@ -10,9 +10,9 @@ function Router() {
   return (
     <>
       <Navbar>
-        <Link to='/'>HomePage</Link>&nbsp;|&nbsp;
-        <Link to='/interests'>Interests</Link>&nbsp;|&nbsp;
-        <Link to='/projects'>Projects</Link>
+        <StyledLink to='/'>HomePage</StyledLink>&nbsp;|&nbsp;
+        <StyledLink to='/interests'>Interests</StyledLink>&nbsp;|&nbsp;
+        <StyledLink to='/projects'>Projects</StyledLink>
       </Navbar>
       <Routes>
         <Route path="/" element={<HomePage />} />
