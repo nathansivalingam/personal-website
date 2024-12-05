@@ -33,6 +33,6 @@ export const AboutMeStyle = styled.div(() => ({
 
 export const StyledImg = styled.img`
   width: 90%;
-  height: 250px;
+  height: 45%;
   border: 5px solid white;
 `
