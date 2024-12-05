@@ -11,8 +11,8 @@ function Router() {
     <>
       <Navbar>
         <StyledLink to='/'>Home</StyledLink>&nbsp;&nbsp;|&nbsp;&nbsp;
-        <StyledLink to='/interests'>Interests</StyledLink>&nbsp;&nbsp;|&nbsp;&nbsp;
-        <StyledLink to='/projects'>Projects</StyledLink>
+        <StyledLink to='/projects'>Projects</StyledLink>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <StyledLink to='/interests'>Interests</StyledLink>
       </Navbar>
       <Routes>
         <Route path="/" element={<HomePage />} />

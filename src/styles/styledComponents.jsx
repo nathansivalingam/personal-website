@@ -48,7 +48,6 @@ export const StyledImg = styled.img`
 export const AboutMeStyle = styled.div(() => ({
   padding: '1%',
   fontSize: '1.4rem',
-  textDecoration: 'underline',
 }))
 
 export const AboutMeParagraphStyle = styled.div(() => ({
@@ -82,4 +81,24 @@ export const IndivProjectStyle = styled.div(() => ({
   marginTop: '1%',
   display: 'flex',
   flexDirection: 'row',
+  alignItems: 'center',
+}))
+
+export const IndivProjectImgStyle = styled.div(() => ({
+  height: '180px',
+  width: '200px',
+  backgroundColor: 'white',
+  borderRadius: '5px',
+  marginLeft: '10px',
+}))
+
+export const MoreComingSoonStyle = styled.div(() => ({
+  width: '95%',
+  height: '200px',
+  backgroundColor: '#5885AF',
+  borderRadius: '5px',
+  marginTop: '1%',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
 }))

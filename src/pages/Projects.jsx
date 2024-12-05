@@ -1,12 +1,12 @@
-import { ProjectPageStyle, IndivProjectStyle } from "../styles/styledComponents"
+import { ProjectPageStyle, IndivProjectStyle, IndivProjectImgStyle, MoreComingSoonStyle } from "../styles/styledComponents"
 
 const Projects = function() {
   return <>
     <ProjectPageStyle>
       <IndivProjectStyle>
-        <div>
+        <IndivProjectImgStyle>
           Robot Project
-        </div>
+        </IndivProjectImgStyle>
         <div>
           Project 1 Content
           <div>Title: </div>
@@ -14,9 +14,31 @@ const Projects = function() {
           <div>Creation Date: </div>
         </div>
       </IndivProjectStyle>
-      <IndivProjectStyle>Personal Website Project</IndivProjectStyle>
-      <IndivProjectStyle>Javascript Games</IndivProjectStyle>
-      <IndivProjectStyle>More Coming Soon...</IndivProjectStyle>
+      <IndivProjectStyle>
+        <IndivProjectImgStyle>
+          Personal Website Project
+        </IndivProjectImgStyle>
+        <div>
+          Project 1 Content
+          <div>Title: </div>
+          <div>Description: </div>
+          <div>Creation Date: </div>
+        </div>
+      </IndivProjectStyle>
+      <IndivProjectStyle>
+        <IndivProjectImgStyle>
+          Javascript Games
+        </IndivProjectImgStyle>
+        <div>
+          Project 1 Content
+          <div>Title: </div>
+          <div>Description: </div>
+          <div>Creation Date: </div>
+        </div>
+      </IndivProjectStyle>
+      <MoreComingSoonStyle>
+        More Coming Soon...
+      </MoreComingSoonStyle>
     </ProjectPageStyle>
   </>
 }

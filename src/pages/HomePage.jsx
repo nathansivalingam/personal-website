@@ -4,7 +4,7 @@ import { SocialMediaStyle,
   AboutMeStyle, 
   AboutMeParagraphStyle, 
   StyledSocialLink } from "../styles/styledComponents"
-import aboutMeImg from '../assets/about_me.png'
+import aboutMeImg from '../assets/about_me.jpg'
 import { Link } from 'react-router-dom';
 
 const HomePage = function() {
