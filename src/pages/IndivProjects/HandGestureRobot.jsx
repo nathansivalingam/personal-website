@@ -1,6 +1,8 @@
 
 const HandGestureRobot = function() {
-  return <>HandGestureRobot</>
+  return <>
+    <div>HandGestureRobot</div>
+  </>
 }
 
 export default HandGestureRobot

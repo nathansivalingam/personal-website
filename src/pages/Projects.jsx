@@ -8,16 +8,18 @@ import { ProjectPageStyle,
 import robotImg from '../assets/robot.png'
 import personalWebsiteImg from '../assets/personal_website.png'
 import jsxGamesImg from '../assets/jsx_games.jpg'
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 const Projects = function() {
-  const handleClick = () => {
-    console.log('Hello World');
+  const navigate = useNavigate();
+  
+  const handleClick = (e) => {
+    navigate(e);
   };
   
   return <>
     <ProjectPageStyle>
-      <IndivProjectStyle onClick={handleClick}>
+      <IndivProjectStyle onClick={() => handleClick('/IndivProjects/HandGestureRobot')}>
         <IndivProjectImgStyle>
           <StyledProjectImg src={robotImg} alt="robot"></StyledProjectImg>
         </IndivProjectImgStyle>
@@ -28,7 +30,7 @@ const Projects = function() {
           <ProjectText><b>Creation Date →</b> Jan 2024</ProjectText>
         </IndivProjectContentStyle>
       </IndivProjectStyle>
-      <IndivProjectStyle onClick={handleClick}>
+      <IndivProjectStyle onClick={() => handleClick('/IndivProjects/JSXGames')}>
         <IndivProjectImgStyle>
           <StyledProjectImg src={personalWebsiteImg} alt="personal website"></StyledProjectImg>
         </IndivProjectImgStyle>
@@ -38,7 +40,7 @@ const Projects = function() {
           <ProjectText><b>Creation Date →</b> Dec 2024</ProjectText>
         </IndivProjectContentStyle>
       </IndivProjectStyle>
-      <IndivProjectStyle onClick={handleClick}>
+      <IndivProjectStyle onClick={() => handleClick('/IndivProjects/PersonalWebsite')}>
         <IndivProjectImgStyle>
           <StyledProjectImg src={jsxGamesImg} alt="jsx games"></StyledProjectImg>
         </IndivProjectImgStyle>
