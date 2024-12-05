@@ -26,9 +26,9 @@ export const StyledLink = styled(Link)`
 export const HomePageStyle = styled.div(() => ({
   display: 'block',
   textAlign: 'center',
-  height: 'calc(100vh - 100px)',
   padding: '1%',
   fontSize: '1.4rem',
+  maxWidth: '900px',
 }))
 
 export const SocialMediaStyle = styled.div(() => ({
@@ -119,6 +119,7 @@ export const MoreComingSoonStyle = styled.div(() => ({
   display: 'flex',
   justifyContent: 'center',
   padding: '10px',
+  marginBottom: '1%',
 }))
 
 export const StyledProjectImg = styled.img`
