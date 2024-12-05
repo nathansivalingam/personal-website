@@ -52,8 +52,6 @@ export const AboutMeStyle = styled.div(() => ({
 }))
 
 export const AboutMeParagraphStyle = styled.div(() => ({
-  paddingLeft: '5%',
-  paddingRight: '5%',
   fontSize: '1.4rem',
 }))
 
