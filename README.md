@@ -6,3 +6,9 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+### Next Steps
+- Fill out the IndivProject pages
+- Start and finish the 'Interests' page
+- Deploy to vercel
+- Make it accessible via link (could use a domain name or something... idk yet but will figure out)
