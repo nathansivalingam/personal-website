@@ -143,6 +143,7 @@ export const HandGestureRobotHeaderStyle = styled.div(() => ({
   display: 'flex',
   justifyContent: 'space-between',
   width: '600px',
+  padding: '0px 25px'
 }))
 
 export const StyledContributorLink = styled(Link)`
@@ -151,6 +152,16 @@ export const StyledContributorLink = styled(Link)`
 
   &:hover {
     color: #274472;
+    text-shadow: 0 0 2px white, 0 0 5px white;
+  }
+`
+
+export const StyledHeaderLink = styled(Link)`
+  color: black;
+  text-decoration: none;
+
+  &:hover {
+    color: black;
     text-shadow: 0 0 2px white, 0 0 5px white;
   }
 `
