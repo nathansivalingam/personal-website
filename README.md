@@ -8,7 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ### Next Steps
-- Fill out the IndivProject pages
+- Finish up with tictactoe
 - Start and finish the 'Interests' page
 - Deploy to vercel
 - Make it accessible via link (could use a domain name or something... idk yet but will figure out)
