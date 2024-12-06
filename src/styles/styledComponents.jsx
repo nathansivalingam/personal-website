@@ -48,7 +48,6 @@ export const StyledImg = styled.img`
 export const AboutMeStyle = styled.div(() => ({
   padding: '1%',
   fontSize: '1.4rem',
-  textDecoration: 'underline',
 }))
 
 export const AboutMeParagraphStyle = styled.div(() => ({
