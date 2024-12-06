@@ -179,3 +179,38 @@ export const StyledGitHubRepoLink = styled(Link)`
     text-shadow: 0 0 2px white, 0 0 5px white;
   }
 `
+
+export const PersonalWebsitePageStyle = styled.div(() => ({
+  display: 'flex',
+  flexDirection: 'column',
+  paddingTop: '30vh',
+}))
+
+// JSXGames
+export const JSXGamesPageStyle = styled.div(() => ({
+  display: 'flex',
+  flexWrap: 'wrap',
+  padding: '10px',
+  gap: '10px',
+}))
+
+export const IndivGameStyle = styled.img`
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  border: 5px solid white;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.01);
+  }
+`;
+
+export const TicTacToePageStyle = styled.div(() => ({
+  display: 'flex',
+  justifyContent: 'center', // Centers horizontally
+  alignItems: 'center', // Centers vertically
+  height: '80vh', // Ensures the div takes full viewport height
+  textAlign: 'center', // Centers text horizontally inside the div
+}));

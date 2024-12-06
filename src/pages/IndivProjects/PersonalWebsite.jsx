@@ -1,14 +1,16 @@
 import '../../App.css'
-import { StyledGitHubRepoLink } from '../../styles/styledComponents'
+import { StyledGitHubRepoLink, PersonalWebsitePageStyle } from '../../styles/styledComponents'
 
 const PersonalWebsite = function() {
   return <>
-    <div className="main-body">
-      <h1>You are currently exploring the website 💻</h1>
-    </div>
-    <div className="main-body">
-      <StyledGitHubRepoLink to="https://github.com/nathansivalingam/personal-website">Personal Website Github Repo Link</StyledGitHubRepoLink>
-    </div>
+    <PersonalWebsitePageStyle>
+      <div className="main-body">
+        <h1>You are currently exploring the website 💻</h1>
+      </div>
+      <div className="main-body">
+        <StyledGitHubRepoLink to="https://github.com/nathansivalingam/personal-website">Click Here to Access the Personal Website Github Repo</StyledGitHubRepoLink>
+      </div>
+    </PersonalWebsitePageStyle>
   </>
 }
 
