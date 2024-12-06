@@ -171,6 +171,7 @@ export const StyledHeaderLink = styled(Link)`
 export const StyledGitHubRepoLink = styled(Link)`
   color: #274472;
   text-decoration: none;
+  padding-bottom: 20px;
 
   &:hover {
     color: black;

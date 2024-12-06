@@ -30,7 +30,7 @@ const Projects = function() {
           <ProjectText><b>Creation Date →</b> Jan 2024</ProjectText>
         </IndivProjectContentStyle>
       </IndivProjectStyle>
-      <IndivProjectStyle onClick={() => handleClick('/IndivProjects/JSXGames')}>
+      <IndivProjectStyle onClick={() => handleClick('/IndivProjects/PersonalWebsite')}>
         <IndivProjectImgStyle>
           <StyledProjectImg src={personalWebsiteImg} alt="personal website"></StyledProjectImg>
         </IndivProjectImgStyle>
@@ -40,7 +40,7 @@ const Projects = function() {
           <ProjectText><b>Creation Date →</b> Dec 2024</ProjectText>
         </IndivProjectContentStyle>
       </IndivProjectStyle>
-      <IndivProjectStyle onClick={() => handleClick('/IndivProjects/PersonalWebsite')}>
+      <IndivProjectStyle onClick={() => handleClick('/IndivProjects/JSXGames')}>
         <IndivProjectImgStyle>
           <StyledProjectImg src={jsxGamesImg} alt="jsx games"></StyledProjectImg>
         </IndivProjectImgStyle>

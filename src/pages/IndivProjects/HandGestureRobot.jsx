@@ -1,7 +1,7 @@
 import { HandGestureRobotPageStyle, 
   HandGestureRobotHeaderStyle, 
   StyledContributorLink, 
-  StyledHeaderLink} from "../../styles/styledComponents"
+  StyledHeaderLink } from "../../styles/styledComponents"
 import '../../App.css'
 import React, { useEffect, useState } from 'react';
 
