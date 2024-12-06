@@ -129,3 +129,28 @@ export const StyledProjectImg = styled.img`
 export const ProjectText = styled.div(() => ({
   padding: '10px 20px 0 20px',
 }))
+
+
+// HAND GESTURE ROBOT
+export const HandGestureRobotPageStyle = styled.div(() => ({
+  display: 'flex',
+  justifyContent:'center',
+  flexDirection: 'column',
+  padding: '0px 25px',
+}))
+
+export const HandGestureRobotHeaderStyle = styled.div(() => ({
+  display: 'flex',
+  justifyContent: 'space-between',
+  width: '600px',
+}))
+
+export const StyledContributorLink = styled(Link)`
+  color: #274472;
+  text-decoration: none;
+
+  &:hover {
+    color: #274472;
+    text-shadow: 0 0 2px white, 0 0 5px white;
+  }
+`
