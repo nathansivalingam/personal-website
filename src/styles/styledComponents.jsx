@@ -118,6 +118,7 @@ export const MoreComingSoonStyle = styled.div(() => ({
   justifyContent: 'center',
   padding: '10px',
   marginBottom: '1%',
+  color: 'white',
 }))
 
 export const StyledProjectImg = styled.img`

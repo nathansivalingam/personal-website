@@ -24,7 +24,7 @@ const Projects = function() {
           <StyledProjectImg src={robotImg} alt="robot"></StyledProjectImg>
         </IndivProjectImgStyle>
         <IndivProjectContentStyle>
-          <ProjectText><b>Title →</b> Robot</ProjectText>
+          <ProjectText><b>Title →</b> Hand Gesture Robot</ProjectText>
           <ProjectText><b>Description →</b> The aim is to further explore the use of hand gestures in controlling the speed and direction of autonomous
           vehicles.</ProjectText>
           <ProjectText><b>Creation Date →</b> Jan 2024</ProjectText>
