@@ -85,6 +85,7 @@ export const IndivProjectStyle = styled.div`
   gap: 10px;
   padding: 10px;
   transition: transform 0.3s ease;
+  cursor: pointer;
 
   &:hover {
     transform: scale(1.01);
