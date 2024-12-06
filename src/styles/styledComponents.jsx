@@ -165,3 +165,14 @@ export const StyledHeaderLink = styled(Link)`
     text-shadow: 0 0 2px white, 0 0 5px white;
   }
 `
+
+// PERSONAL WEBSITE PAGE
+export const StyledGitHubRepoLink = styled(Link)`
+  color: #274472;
+  text-decoration: none;
+
+  &:hover {
+    color: black;
+    text-shadow: 0 0 2px white, 0 0 5px white;
+  }
+`
