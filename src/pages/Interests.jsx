@@ -5,7 +5,6 @@ import koreaOneImg from '../assets/technical_experience_mech_4100.jpg';
 import koreaTwoImg from '../assets/technical_experience_mech_4100.jpg';
 import chinaOneImg from '../assets/technical_experience_mech_4100.jpg';
 import chinaTwoImg from '../assets/technical_experience_mech_4100.jpg';
-import chinaOneImg from '../assets/technical_experience_mech_4100.jpg';
 import nelsonOneImg from '../assets/technical_experience_mech_4100.jpg';
 import nelsonTwoImg from '../assets/technical_experience_mech_4100.jpg';
 import { InterestsPageStyle } from '../styles/styledComponents';
