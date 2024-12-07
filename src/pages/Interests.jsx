@@ -14,7 +14,6 @@ const Interests = function() {
   const [browser, setBrowser] = useState('');
 
   useEffect(() => {
-    // Detect the user's browser using userAgent
     const userAgent = navigator.userAgent;
     if (userAgent.indexOf('Edg/') > -1) {
       setBrowser('edge');
