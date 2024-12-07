@@ -224,6 +224,8 @@ export const GridContainer = styled.div`
   grid-template-columns: repeat(3, 100px);
   grid-template-rows: repeat(3, 100px);
   background-color: grey;
+  border: 5px solid white;
+  border-radius: 5px;
 `;
 
 export const StyledButton = styled.button`
@@ -237,8 +239,8 @@ export const StyledButton = styled.button`
 
 export const StyledItemThreeFive = styled.button`
   border: none;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 1px solid #d4c1c4;
+  border-bottom: 1px solid #d4c1c4;
   cursor: pointer;
 
   &:hover {
@@ -248,8 +250,8 @@ export const StyledItemThreeFive = styled.button`
 
 export const StyledItemOneSeven = styled.button`
   border: none;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+  border-left: 1px solid #d4c1c4;
+  border-right: 1px solid #d4c1c4;
   cursor: pointer;
 
   &:hover {
@@ -258,7 +260,7 @@ export const StyledItemOneSeven = styled.button`
 `
 
 export const StyledItemFour = styled.button`
-  border: 1px solid black;
+  border: 1px solid #d4c1c4;
   cursor: pointer;
 
   &:hover {
