@@ -1,14 +1,3 @@
-# React + Vite
+# How To Run
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-### Next Steps
-- Finish up with tictactoe
-- Start and finish the 'Interests' page
-- Deploy to vercel
-- Make it accessible via link (could use a domain name or something... idk yet but will figure out)
+(Click Here)[https://nathan-personal-website.vercel.app/]
