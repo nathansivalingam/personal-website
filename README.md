@@ -1,14 +1,10 @@
-# React + Vite
+# Personal Website
+This website was created using React. It was made using the skills taught in COMP6080 (Web Front-End Programming) at UNSW Sydney.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### How to Run
+Click this Link &#8594; [Personal Website](https://nathan-personal-website.vercel.app/)
 
 ### Next Steps
-- Finish up with tictactoe
-- Start and finish the 'Interests' page
-- Deploy to vercel
-- Make it accessible via link (could use a domain name or something... idk yet but will figure out)
+- [ ] Fix refresh problem on all pages except the homepage
+- [ ] Develop some more games for the JSX games section of the website
+- [ ] Research some component libraries to improve the website's aesthetic (Web appearance is always changing so this is sort of an everpresent next step) 
