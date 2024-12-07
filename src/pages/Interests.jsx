@@ -25,11 +25,12 @@ const Interests = function() {
   return (
     <>
       <InterestsPageStyle>
-        <img style={{ width: '300px', height: '400px' }} src={stirlingEngineImg} alt="stirling engine photo" />
+        <img style={{ width: '300px', height: '390px' }} src={stirlingEngineImg} alt="stirling engine photo" />
         
         {browser === 'chrome' && (
           <video
-            style={{ width: '700px', height: '400px' }}
+            style={{ width: '700px', 
+              height: '390px' }}
             muted
             autoPlay
             alt="stirling engine video"
@@ -39,13 +40,13 @@ const Interests = function() {
           </video>
         )}
 
-        <img style={{ width: '550px', height: '400px' }} src={demoTurtleImg} alt="stirling engine photo" />
-        <img style={{ width: '650px', height: '400px' }} src="src/assets/korea_one.JPG" alt="korea one img" />
-        <img style={{ width: '550px', height: '400px' }} src="src/assets/korea_two.JPG" alt="korea two img" />
-        <img style={{ width: '300px', height: '400px' }} src="src/assets/china_one.jpg" alt="china one img" />
-        <img style={{ width: '300px', height: '400px' }} src="src/assets/china_two.jpeg" alt="china two img" />
-        <img style={{ width: '550px', height: '400px' }} src="src/assets/nelson_one.jpg" alt="nelson one img" />
-        <img style={{ width: '860px', height: '400px' }} src="src/assets/nelson_two.jpg" alt="nelson two img" />
+        <img style={{ width: '550px', height: '390px' }} src={demoTurtleImg} alt="stirling engine photo" />
+        <img style={{ width: '650px', height: '390px' }} src="src/assets/korea_one.JPG" alt="korea one img" />
+        <img style={{ width: '550px', height: '390px' }} src="src/assets/korea_two.JPG" alt="korea two img" />
+        <img style={{ width: '300px', height: '390px' }} src="src/assets/china_one.jpg" alt="china one img" />
+        <img style={{ width: '300px', height: '390px' }} src="src/assets/china_two.jpeg" alt="china two img" />
+        <img style={{ width: '550px', height: '390px' }} src="src/assets/nelson_one.jpg" alt="nelson one img" />
+        <img style={{ width: '860px', height: '390px' }} src="src/assets/nelson_two.jpg" alt="nelson two img" />
       </InterestsPageStyle>
     </>
   );
