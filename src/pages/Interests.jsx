@@ -43,11 +43,11 @@ const Interests = function() {
 
         <img style={{ width: '550px', height: '390px' }} src={demoTurtleImg} alt="stirling engine photo" />
         <img style={{ width: '650px', height: '390px' }} src={koreaOneImg} alt="korea one img" />
-        <img style={{ width: '550px', height: '390px' }} src="src/assets/korea_two.JPG" alt="korea two img" />
+        {/* <img style={{ width: '550px', height: '390px' }} src="src/assets/korea_two.JPG" alt="korea two img" />
         <img style={{ width: '300px', height: '390px' }} src="src/assets/china_one.jpg" alt="china one img" />
         <img style={{ width: '300px', height: '390px' }} src="src/assets/china_two.jpeg" alt="china two img" />
         <img style={{ width: '550px', height: '390px' }} src="src/assets/nelson_one.jpg" alt="nelson one img" />
-        <img style={{ width: '860px', height: '390px' }} src="src/assets/nelson_two.jpg" alt="nelson two img" />
+        <img style={{ width: '860px', height: '390px' }} src="src/assets/nelson_two.jpg" alt="nelson two img" /> */}
       </InterestsPageStyle>
     </>
   );
