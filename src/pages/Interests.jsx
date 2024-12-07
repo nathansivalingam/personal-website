@@ -1,6 +1,7 @@
 import stirlingEngineImg from '../assets/technical_experience_mech_4100.jpg';
 import demoTurtleImg from '../assets/demonstrator_turtle.jpg';
 import stirlingEngineVideo from '../assets/stirling_engine_video.mp4';
+import koreaOneImg from '../assets/korea_one.JPG';
 import { InterestsPageStyle } from '../styles/styledComponents';
 import React, { useEffect, useState } from 'react';
 
@@ -41,7 +42,7 @@ const Interests = function() {
         )}
 
         <img style={{ width: '550px', height: '390px' }} src={demoTurtleImg} alt="stirling engine photo" />
-        <img style={{ width: '650px', height: '390px' }} src="src/assets/korea_one.JPG" alt="korea one img" />
+        <img style={{ width: '650px', height: '390px' }} src={koreaOneImg} alt="korea one img" />
         <img style={{ width: '550px', height: '390px' }} src="src/assets/korea_two.JPG" alt="korea two img" />
         <img style={{ width: '300px', height: '390px' }} src="src/assets/china_one.jpg" alt="china one img" />
         <img style={{ width: '300px', height: '390px' }} src="src/assets/china_two.jpeg" alt="china two img" />
