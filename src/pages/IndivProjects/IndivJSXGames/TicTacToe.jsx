@@ -1,6 +1,13 @@
-import { TicTacToePageStyle } from "../../../styles/styledComponents"
-import '../../../App.css'
+import { GridContainer, 
+  TicTacToePageStyle, 
+  StyledButton, 
+  StyledItemThreeFive, 
+  StyledItemOneSeven, 
+  StyledItemFour, 
+  WinStatus, 
+  TicTacToeHeaderStyle} from "../../../styles/styledComponents"
 import React from 'react'
+import ticTacToeBg from "../../../assets/tictactoe_bg.jpg"
 
 const TicTacToe = function() {
   const [winStatus, setWinStatus] = React.useState(false);
@@ -63,24 +70,27 @@ const TicTacToe = function() {
     }
   }, [grid]);
 
-  return <>
+  return <div style={{ backgroundImage: `url(${ticTacToeBg})`, backgroundSize: 'cover', height: '100vh' }}>
      <TicTacToePageStyle>
-      <div className="container">
-        <button onClick={() => playerMove(0)} className="item" style={{ backgroundColor: colours[0] === 1 ? 'lightgreen' : 'white' }}>{grid[0]}</button>
-        <button onClick={() => playerMove(1)} className="item" style={{ backgroundColor: colours[1] === 1 ? 'lightgreen' : 'white' }}>{grid[1]}</button>
-        <button onClick={() => playerMove(2)} className="item" style={{ backgroundColor: colours[2] === 1 ? 'lightgreen' : 'white' }}>{grid[2]}</button>
-        <button onClick={() => playerMove(3)} className="item" style={{ backgroundColor: colours[3] === 1 ? 'lightgreen' : 'white' }}>{grid[3]}</button>
-        <button onClick={() => playerMove(4)} className="item" style={{ backgroundColor: colours[4] === 1 ? 'lightgreen' : 'white' }}>{grid[4]}</button>
-        <button onClick={() => playerMove(5)} className="item" style={{ backgroundColor: colours[5] === 1 ? 'lightgreen' : 'white' }}>{grid[5]}</button>
-        <button onClick={() => playerMove(6)} className="item" style={{ backgroundColor: colours[6] === 1 ? 'lightgreen' : 'white' }}>{grid[6]}</button>
-        <button onClick={() => playerMove(7)} className="item" style={{ backgroundColor: colours[7] === 1 ? 'lightgreen' : 'white' }}>{grid[7]}</button>
-        <button onClick={() => playerMove(8)} className="item" style={{ backgroundColor: colours[8] === 1 ? 'lightgreen' : 'white' }}>{grid[8]}</button>
-      </div>
+      <TicTacToeHeaderStyle>
+        <h1>Tic Tac Toe</h1>
+      </TicTacToeHeaderStyle>
+      <GridContainer>
+        <StyledButton onClick={() => playerMove(0)} style={{ backgroundColor: colours[0] === 1 ? '#A8E4A0' : 'white' }}>{grid[0]}</StyledButton>
+        <StyledItemOneSeven onClick={() => playerMove(1)} style={{ backgroundColor: colours[1] === 1 ? '#A8E4A0' : 'white' }}>{grid[1]}</StyledItemOneSeven>
+        <StyledButton onClick={() => playerMove(2)} style={{ backgroundColor: colours[2] === 1 ? '#A8E4A0' : 'white' }}>{grid[2]}</StyledButton>
+        <StyledItemThreeFive onClick={() => playerMove(3)} style={{ backgroundColor: colours[3] === 1 ? '#A8E4A0' : 'white' }}>{grid[3]}</StyledItemThreeFive>
+        <StyledItemFour onClick={() => playerMove(4)} style={{ backgroundColor: colours[4] === 1 ? '#A8E4A0' : 'white' }}>{grid[4]}</StyledItemFour>
+        <StyledItemThreeFive onClick={() => playerMove(5)} style={{ backgroundColor: colours[5] === 1 ? '#A8E4A0' : 'white' }}>{grid[5]}</StyledItemThreeFive>
+        <StyledButton onClick={() => playerMove(6)} style={{ backgroundColor: colours[6] === 1 ? '#A8E4A0' : 'white' }}>{grid[6]}</StyledButton>
+        <StyledItemOneSeven onClick={() => playerMove(7)} style={{ backgroundColor: colours[7] === 1 ? '#A8E4A0' : 'white' }}>{grid[7]}</StyledItemOneSeven>
+        <StyledButton onClick={() => playerMove(8)} style={{ backgroundColor: colours[8] === 1 ? '#A8E4A0' : 'white' }}>{grid[8]}</StyledButton>
+      </GridContainer>
       {winStatus === true ? (
-        <div id="win">Win player: {turn}</div>
-      ) : '' }
+        <WinStatus>Player {turn} Wins!</WinStatus>
+      ) : <WinStatus>Player {turn}'s Turn</WinStatus> }
     </TicTacToePageStyle>
-  </>
+  </div>
 }
 
 export default TicTacToe

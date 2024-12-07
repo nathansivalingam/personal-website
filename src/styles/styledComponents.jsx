@@ -208,8 +208,65 @@ export const IndivGameStyle = styled.img`
 
 export const TicTacToePageStyle = styled.div(() => ({
   display: 'flex',
-  justifyContent: 'center', // Centers horizontally
-  alignItems: 'center', // Centers vertically
-  height: '80vh', // Ensures the div takes full viewport height
-  textAlign: 'center', // Centers text horizontally inside the div
+  alignItems: 'center',
+  height: '80vh',
+  textAlign: 'center',
+  flexDirection: 'column',
 }));
+
+export const TicTacToeHeaderStyle = styled.header(() => ({
+  paddingBottom: '100px',
+  color: '#FAF9F6',
+}))
+
+export const GridContainer = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  background-color: grey;
+`;
+
+export const StyledButton = styled.button`
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+`
+
+export const StyledItemThreeFive = styled.button`
+  border: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+`
+
+export const StyledItemOneSeven = styled.button`
+  border: none;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+`
+
+export const StyledItemFour = styled.button`
+  border: 1px solid black;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+`
+
+export const WinStatus = styled.div(() => ({
+  color: '#FAF9F6',
+  paddingTop: '30px',
+}))
