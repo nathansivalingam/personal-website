@@ -1,6 +1,6 @@
 import stirlingEngineImg from '../assets/technical_experience_mech_4100.jpg';
 import demoTurtleImg from '../assets/demonstrator_turtle.jpg';
-import koreaOneImg from '../assets/korea_one.jpg';
+import koreaOneImg from 'src/assets/korea_one.JPG';
 import koreaTwoImg from '../assets/korea_two.jpg';
 import chinaOneImg from '../assets/china_one.jpg';
 import chinaTwoImg from '../assets/china_two.jpeg';
