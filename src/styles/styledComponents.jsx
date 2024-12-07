@@ -239,8 +239,8 @@ export const StyledButton = styled.button`
 
 export const StyledItemThreeFive = styled.button`
   border: none;
-  border-top: 1px solid #d4c1c4;
-  border-bottom: 1px solid #d4c1c4;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   cursor: pointer;
 
   &:hover {
@@ -250,8 +250,8 @@ export const StyledItemThreeFive = styled.button`
 
 export const StyledItemOneSeven = styled.button`
   border: none;
-  border-left: 1px solid #d4c1c4;
-  border-right: 1px solid #d4c1c4;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
   cursor: pointer;
 
   &:hover {
@@ -260,7 +260,7 @@ export const StyledItemOneSeven = styled.button`
 `
 
 export const StyledItemFour = styled.button`
-  border: 1px solid #d4c1c4;
+  border: 1px solid black;
   cursor: pointer;
 
   &:hover {
@@ -271,4 +271,13 @@ export const StyledItemFour = styled.button`
 export const WinStatus = styled.div(() => ({
   color: '#FAF9F6',
   paddingTop: '30px',
+}))
+
+// INTERESTS PAGE
+export const InterestsPageStyle = styled.div(() => ({
+  display: 'flex',
+  flexWrap: 'wrap',
+  padding: '10px',
+  gap: '10px',
+  justifyContent: 'center',
 }))

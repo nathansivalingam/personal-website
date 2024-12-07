@@ -40,9 +40,9 @@ const HandGestureRobot = function() {
         {browser === 'edge' && (
           <iframe
             src="https://github.com/nathansivalingam/hand-gesture-robot"
-            width="95%"
+            width="100%"
             height="400px"
-            style={{ border: '5px solid white', marginTop: '15px' }}
+            style={{ border: '5px solid white', marginTop: '15px', marginLeft: '25px', marginRight: '25px' }}
           >
             Your browser does not support iframes.
           </iframe>
