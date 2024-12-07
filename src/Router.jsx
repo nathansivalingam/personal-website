@@ -13,9 +13,9 @@ import React, { useEffect } from 'react'
 
 function Router() {
   const navigate = useNavigate();
-  
+
   useEffect(() => {
-    navigate('/aboutme');
+    navigate('/');
   }, [])
 
   return (
