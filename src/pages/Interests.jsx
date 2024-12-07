@@ -1,11 +1,5 @@
 import stirlingEngineImg from '../assets/technical_experience_mech_4100.jpg';
 import demoTurtleImg from '../assets/demonstrator_turtle.jpg';
-// import koreaOneImg from 'src/assets/korea_one.JPG';
-import koreaTwoImg from '../assets/korea_two.jpg';
-import chinaOneImg from '../assets/china_one.jpg';
-import chinaTwoImg from '../assets/china_two.jpeg';
-import nelsonOneImg from '../assets/nelson_one.jpg';
-import nelsonTwoImg from '../assets/nelson_two.jpg';
 import stirlingEngineVideo from '../assets/stirling_engine_video.mp4';
 import { InterestsPageStyle } from '../styles/styledComponents';
 import React, { useEffect, useState } from 'react';
@@ -47,11 +41,11 @@ const Interests = function() {
 
         <img style={{ width: '550px', height: '400px' }} src={demoTurtleImg} alt="stirling engine photo" />
         <img style={{ width: '650px', height: '400px' }} src="src/assets/korea_one.JPG" alt="korea one img" />
-        <img style={{ width: '550px', height: '400px' }} src={koreaTwoImg} alt="korea two img" />
-        <img style={{ width: '300px', height: '400px' }} src={chinaOneImg} alt="china one img" />
-        <img style={{ width: '300px', height: '400px' }} src={chinaTwoImg} alt="china two img" />
-        <img style={{ width: '550px', height: '400px' }} src={nelsonOneImg} alt="nelson one img" />
-        <img style={{ width: '860px', height: '400px' }} src={nelsonTwoImg} alt="nelson two img" />
+        <img style={{ width: '550px', height: '400px' }} src="src/assets/korea_two.JPG" alt="korea two img" />
+        <img style={{ width: '300px', height: '400px' }} src="src/assets/china_one.jpg" alt="china one img" />
+        <img style={{ width: '300px', height: '400px' }} src="src/assets/china_two.jpeg" alt="china two img" />
+        <img style={{ width: '550px', height: '400px' }} src="src/assets/nelson_one.jpg" alt="nelson one img" />
+        <img style={{ width: '860px', height: '400px' }} src="src/assets/nelson_two.jpg" alt="nelson two img" />
       </InterestsPageStyle>
     </>
   );
