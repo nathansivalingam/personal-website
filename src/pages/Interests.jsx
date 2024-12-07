@@ -1,12 +1,12 @@
 import demoTurtleImg from '../assets/demonstrator_turtle.jpg';
 import stirlingEngineVideo from '../assets/stirling_engine_video.mp4';
 import stirlingEngineImg from '../assets/technical_experience_mech_4100.jpg';
-import koreaOneImg from '../assets/technical_experience_mech_4100.jpg';
-import koreaTwoImg from '../assets/technical_experience_mech_4100.jpg';
-import chinaOneImg from '../assets/technical_experience_mech_4100.jpg';
-import chinaTwoImg from '../assets/technical_experience_mech_4100.jpg';
-import nelsonOneImg from '../assets/technical_experience_mech_4100.jpg';
-import nelsonTwoImg from '../assets/technical_experience_mech_4100.jpg';
+import koreaOneImg from '../assets/korea_one.png';
+import koreaTwoImg from '../assets/korea_two.png';
+import chinaOneImg from '../assets/china_one.jpg';
+import chinaTwoImg from '../assets/china_two.jpeg';
+import nelsonOneImg from '../assets/nelson_one.png';
+import nelsonTwoImg from '../assets/nelson_two.png';
 import { InterestsPageStyle } from '../styles/styledComponents';
 import React, { useEffect, useState } from 'react';
 
