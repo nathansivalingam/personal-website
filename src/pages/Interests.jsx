@@ -1,6 +1,6 @@
 import stirlingEngineImg from '../assets/technical_experience_mech_4100.jpg';
 import demoTurtleImg from '../assets/demonstrator_turtle.jpg';
-import koreaOneImg from 'src/assets/korea_one.JPG';
+// import koreaOneImg from 'src/assets/korea_one.JPG';
 import koreaTwoImg from '../assets/korea_two.jpg';
 import chinaOneImg from '../assets/china_one.jpg';
 import chinaTwoImg from '../assets/china_two.jpeg';
@@ -46,7 +46,7 @@ const Interests = function() {
         )}
 
         <img style={{ width: '550px', height: '400px' }} src={demoTurtleImg} alt="stirling engine photo" />
-        <img style={{ width: '650px', height: '400px' }} src={koreaOneImg} alt="korea one img" />
+        <img style={{ width: '650px', height: '400px' }} src="src/assets/korea_one.JPG" alt="korea one img" />
         <img style={{ width: '550px', height: '400px' }} src={koreaTwoImg} alt="korea two img" />
         <img style={{ width: '300px', height: '400px' }} src={chinaOneImg} alt="china one img" />
         <img style={{ width: '300px', height: '400px' }} src={chinaTwoImg} alt="china two img" />
