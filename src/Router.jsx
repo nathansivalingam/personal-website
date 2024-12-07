@@ -8,8 +8,15 @@ import PersonalWebsite from './pages/IndivProjects/PersonalWebsite';
 import JSXGames from './pages/IndivProjects/JSXGames';
 import TicTacToe from './pages/IndivProjects/IndivJSXGames/TicTacToe';
 import './App.css'
+import { useNavigate } from 'react-router-dom';
+import React, { useEffect } from 'react'
 
 function Router() {
+  const navigate = useNavigate();
+  
+  useEffect(() => {
+    navigate('/aboutme');
+  }, [])
 
   return (
     <>

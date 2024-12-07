@@ -5,8 +5,8 @@ import koreaOneImg from '../assets/korea_one.png';
 import koreaTwoImg from '../assets/korea_two.png';
 import chinaOneImg from '../assets/china_one.jpg';
 import chinaTwoImg from '../assets/china_two.jpeg';
-import nelsonOneImg from '../assets/nelson_one.png';
-import nelsonTwoImg from '../assets/nelson_two.png';
+import nelsonOneImg from '../assets/nelson_one.jpg';
+import nelsonTwoImg from '../assets/nelson_two.jpg';
 import { InterestsPageStyle } from '../styles/styledComponents';
 import React, { useEffect, useState } from 'react';
 
