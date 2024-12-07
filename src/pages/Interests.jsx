@@ -1,7 +1,13 @@
-import stirlingEngineImg from '../assets/technical_experience_mech_4100.jpg';
 import demoTurtleImg from '../assets/demonstrator_turtle.jpg';
 import stirlingEngineVideo from '../assets/stirling_engine_video.mp4';
+import stirlingEngineImg from '../assets/technical_experience_mech_4100.jpg';
 import koreaOneImg from '../assets/technical_experience_mech_4100.jpg';
+import koreaTwoImg from '../assets/technical_experience_mech_4100.jpg';
+import chinaOneImg from '../assets/technical_experience_mech_4100.jpg';
+import chinaTwoImg from '../assets/technical_experience_mech_4100.jpg';
+import chinaTwoImg from '../assets/technical_experience_mech_4100.jpg';
+import nelsonOneImg from '../assets/technical_experience_mech_4100.jpg';
+import nelsonTwoImg from '../assets/technical_experience_mech_4100.jpg';
 import { InterestsPageStyle } from '../styles/styledComponents';
 import React, { useEffect, useState } from 'react';
 
@@ -43,11 +49,11 @@ const Interests = function() {
 
         <img style={{ width: '550px', height: '390px' }} src={demoTurtleImg} alt="stirling engine photo" />
         <img style={{ width: '650px', height: '390px' }} src={koreaOneImg} alt="korea one img" />
-        {/* <img style={{ width: '550px', height: '390px' }} src="src/assets/korea_two.JPG" alt="korea two img" />
-        <img style={{ width: '300px', height: '390px' }} src="src/assets/china_one.jpg" alt="china one img" />
-        <img style={{ width: '300px', height: '390px' }} src="src/assets/china_two.jpeg" alt="china two img" />
-        <img style={{ width: '550px', height: '390px' }} src="src/assets/nelson_one.jpg" alt="nelson one img" />
-        <img style={{ width: '860px', height: '390px' }} src="src/assets/nelson_two.jpg" alt="nelson two img" /> */}
+        <img style={{ width: '550px', height: '390px' }} src={koreaTwoImg} alt="korea two img" />
+        <img style={{ width: '300px', height: '390px' }} src={chinaOneImg} alt="china one img" />
+        <img style={{ width: '300px', height: '390px' }} src={chinaTwoImg} alt="china two img" />
+        <img style={{ width: '550px', height: '390px' }} src={nelsonOneImg} alt="nelson one img" />
+        <img style={{ width: '860px', height: '390px' }} src={nelsonTwoImg} alt="nelson two img" />
       </InterestsPageStyle>
     </>
   );
