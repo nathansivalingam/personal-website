@@ -1,3 +1,3 @@
 # How To Run
 
-[Click Here](https://nathan-personal-website.vercel.app/)
+Click this Link: [Personal Website](https://nathan-personal-website.vercel.app/)
