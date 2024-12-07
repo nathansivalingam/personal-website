@@ -1,7 +1,7 @@
 import stirlingEngineImg from '../assets/technical_experience_mech_4100.jpg';
 import demoTurtleImg from '../assets/demonstrator_turtle.jpg';
 import stirlingEngineVideo from '../assets/stirling_engine_video.mp4';
-import koreaOneImg from '../assets/korea_one.JPG';
+import koreaOneImg from '../assets/technical_experience_mech_4100.jpg';
 import { InterestsPageStyle } from '../styles/styledComponents';
 import React, { useEffect, useState } from 'react';
 
