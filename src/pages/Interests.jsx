@@ -1,5 +1,6 @@
 import demoTurtleImg from '../assets/demonstrator_turtle.jpg';
 import stirlingEngineVideo from '../assets/stirling_engine_video.mp4';
+import rampVideo from '../assets/mech3110_video.mp4';
 import stirlingEngineImg from '../assets/technical_experience_mech_4100.jpg';
 import koreaOneImg from '../assets/korea_one.png';
 import koreaTwoImg from '../assets/korea_two.png';
@@ -34,16 +35,30 @@ const Interests = function() {
         <img style={{ width: '300px', height: '390px' }} src={stirlingEngineImg} alt="stirling engine photo" />
         
         {browser === 'chrome' && (
-          <video
-            style={{ width: '700px', 
-              height: '390px' }}
-            muted
-            autoPlay
-            alt="stirling engine video"
-          >
-            <source src={stirlingEngineVideo} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          <>
+            <video
+              id="stirlingEngineVideo"
+              style={{ width: '690px', height: '390px' }}
+              muted
+              autoPlay
+              onEnded={() => document.getElementById('rampVideo').play()}
+              alt="stirling engine video"
+            >
+              <source src={stirlingEngineVideo} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+
+            <video
+              id="rampVideo"
+              style={{ width: '690px', height: '390px' }}
+              muted
+              alt="ramp video"
+              ref={(el) => (el ? el.pause() : null)} // Pauses the second video initially
+            >
+              <source src={rampVideo} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </>
         )}
 
         <img style={{ width: '550px', height: '390px' }} src={demoTurtleImg} alt="stirling engine photo" />
