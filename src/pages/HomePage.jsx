@@ -18,7 +18,7 @@ const HomePage = function() {
           <StyledSocialLink to='https://www.instagram.com/nathan_riyan/'>Instagram</StyledSocialLink>
         </SocialMediaStyle>
         <StyledImg src={aboutMeImg} alt="aboutMeImg"></StyledImg>
-        <AboutMeStyle>About Me</AboutMeStyle>
+        <AboutMeStyle><b>About Me</b></AboutMeStyle>
         <AboutMeParagraphStyle>This website is a project I’m developing to improve my frontend programming skills. It serves as an interactive web-based version of my resume, and I plan to link it to my LinkedIn profile upon completion to better engage with potential recruiters. Additionally, this project showcases my frontend development experience and will be a valuable asset as I pursue software engineering and computer science roles in the industry. The projects showcased on this website will also include some of Mechanical Engineering endeavours which will be nice to show recruiters during applications for Mechanical Engineering internships.</AboutMeParagraphStyle>
       </HomePageStyle>
     </div>
