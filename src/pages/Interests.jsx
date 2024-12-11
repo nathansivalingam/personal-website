@@ -5,7 +5,6 @@ import stirlingEngineImg from '../assets/technical_experience_mech_4100.jpg';
 import koreaOneImg from '../assets/korea_one.png';
 import koreaTwoImg from '../assets/korea_two.png';
 import chinaOneImg from '../assets/china_one.jpg';
-import chinaTwoImg from '../assets/china_two.jpeg';
 import nelsonOneImg from '../assets/nelson_one.jpg';
 import nelsonTwoImg from '../assets/nelson_two.jpg';
 import { InterestsPageStyle } from '../styles/styledComponents';
@@ -65,7 +64,6 @@ const Interests = function() {
         <img style={{ width: '650px', height: '390px' }} src={koreaOneImg} alt="korea one img" />
         <img style={{ width: '550px', height: '390px' }} src={koreaTwoImg} alt="korea two img" />
         <img style={{ width: '300px', height: '390px' }} src={chinaOneImg} alt="china one img" />
-        <img style={{ width: '300px', height: '390px' }} src={chinaTwoImg} alt="china two img" />
         <img style={{ width: '550px', height: '390px' }} src={nelsonOneImg} alt="nelson one img" />
         <img style={{ width: '860px', height: '390px' }} src={nelsonTwoImg} alt="nelson two img" />
       </InterestsPageStyle>
