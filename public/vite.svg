@@ -1,11 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-  <!-- Face Shape -->
-  <circle cx="128" cy="128" r="110" fill="white" stroke="black" stroke-width="10"/>
+  <!-- Outer Circle (Green) -->
+  <circle cx="128" cy="128" r="128" fill="gold" stroke="white" stroke-width="10"/>
   
-  <!-- Eyes -->
-  <circle cx="85" cy="100" r="20" fill="black"/>
-  <circle cx="171" cy="100" r="20" fill="black"/>
-  
-  <!-- Smile -->
-  <path d="M85,175 Q128,210 171,175" fill="transparent" stroke="black" stroke-width="10" stroke-linecap="round"/>
+  <!-- Inner Circle (White) -->
+  <circle cx="128" cy="128" r="90.51" fill="white" stroke="white" stroke-width="10"/>
 </svg>
