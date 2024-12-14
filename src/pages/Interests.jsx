@@ -1,7 +1,6 @@
 import demoTurtleImg from '../assets/demonstrator_turtle.jpg';
 import stirlingEngineVideo from '../assets/stirling_engine_video.mp4';
 import rampVideo from '../assets/mech3110_video.mp4';
-import stirlingEngineImg from '../assets/technical_experience_mech_4100.jpg';
 import koreaOneImg from '../assets/korea_one.png';
 import koreaTwoImg from '../assets/korea_two.png';
 import chinaOneImg from '../assets/china_one.jpg';
@@ -30,9 +29,7 @@ const Interests = function() {
 
   return (
     <>
-      <InterestsPageStyle>
-        <img style={{ width: '300px', height: '390px' }} src={stirlingEngineImg} alt="stirling engine photo" />
-        
+      <InterestsPageStyle>        
         {browser === 'chrome' && (
           <>
             <video
