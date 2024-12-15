@@ -67,11 +67,16 @@ export const StyledSocialLink = styled(Link)`
 `
 
 // PROJECTS PAGE
-export const ProjectPageStyle = styled.div(() => ({
-  display: 'flex',
-  flexWrap: 'wrap',
-  justifyContent: 'space-around',
-}))
+export const ProjectPageStyle = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #C3E0E5;
+
+  @media (max-width: 430px) {
+    background-color: #5885AF;
+  }
+`;
 
 export const IndivProjectStyle = styled.div`
   width: 95%;
