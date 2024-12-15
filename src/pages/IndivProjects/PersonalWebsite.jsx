@@ -8,7 +8,7 @@ const PersonalWebsite = function() {
         <h1>You are currently exploring the website 💻</h1>
       </div>
       <div className="main-body">
-        <StyledGitHubRepoLink to="https://github.com/nathansivalingam/personal-website">Click Here to Access the Personal Website Github Repo</StyledGitHubRepoLink>
+        <StyledGitHubRepoLink to="https://github.com/nathansivalingam/personal-website">Click Here to Access the Github Repo</StyledGitHubRepoLink>
       </div>
     </PersonalWebsitePageStyle>
   </>

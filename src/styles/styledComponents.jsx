@@ -29,6 +29,8 @@ export const HomePageStyle = styled.div(() => ({
   padding: '1%',
   fontSize: '1.4rem',
   maxWidth: '900px',
+  paddingLeft: '10px',
+  paddingRight: '10px',
 }))
 
 export const SocialMediaStyle = styled.div(() => ({
@@ -183,6 +185,9 @@ export const PersonalWebsitePageStyle = styled.div(() => ({
   display: 'flex',
   flexDirection: 'column',
   paddingTop: '30vh',
+  paddingLeft: '10px',
+  paddingRight: '10px',
+  textAlign: 'center',
 }))
 
 // JSXGames
@@ -191,6 +196,7 @@ export const JSXGamesPageStyle = styled.div(() => ({
   flexWrap: 'wrap',
   padding: '10px',
   gap: '10px',
+  justifyContent: 'center',
 }))
 
 export const IndivGameStyle = styled.img`
